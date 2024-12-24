@@ -1,0 +1,49 @@
+# Flask-related dependencies
+flask
+werkzeug
+markdown
+python-dotenv
+
+# Vision-based RAG and model dependencies
+byaldi
+
+# qwen-vl-utils
+# mistral_common>=1.4.1
+# mistral_common[opencv]
+# mistral_inference
+groq
+
+# Google and OpenAI embeddings
+google-generativeai
+openai
+
+# Document processing
+docx2pdf
+Pillow
+
+# LangChain and associated modules
+langchain
+langchain-google-genai
+langchain-community
+langchain-groq
+
+# FAISS for vector database
+faiss-cpu
+
+# Additional utilities
+numpy
+# shutil
+uuid
+
+# Frontend
+streamlit
+
+# Others
+absl-py
+protobuf==3.19.6
+wrapt
+opt_einsum
+gast
+astunparse
+termcolor
+flatbuffers
