@@ -186,3 +186,8 @@ ColPali: Efficient Document Retrieval with Vision Language Models - [https://ar
 Byaldi: Simple wrapper around the ColPali repository - [https://github.com/AnswerDotAI/byaldi](https://github.com/AnswerDotAI/byaldi)
 
 ---
+
+## Acknowledgements
+
+Demo catalogue document extracted from: https://www.decathlon.sg/s/decathlon-pro
+
