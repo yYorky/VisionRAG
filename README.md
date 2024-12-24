@@ -35,12 +35,12 @@ The system integrates both **ColPali** and **Llama-based vision models** to form
 2. **Byaldi**:
 
    - Acts as a wrapper around ColPali, making it easy to integrate late-interaction multimodal models with a familiar API.
-   - Supports all ColPali-engine models, including advanced checkpoints like `vidore/colqwen2-v1.0`.
+   - Supports all ColPali-engine models, including advanced checkpoints like `vidore/colpali`.
    - Facilitates indexing and retrieval with minimal setup.
    - Provides options for efficient document storage using base64 encoding.
    - Future updates will include advanced features like HNSW indexing and 2-bit quantization.
 
-3. \*\*Llama 3.2 Vision model\*\*:
+3. **Llama 3.2 Vision model**:
 
    - Uses the Llama 3.2 Vision model to integrate image understanding into RAG workflows.
    - Capable of performing image-based tasks like optical character recognition (OCR) and visual analysis.
@@ -49,13 +49,12 @@ The system integrates both **ColPali** and **Llama-based vision models** to form
 
 The combination of ColPali, Byaldi, and Llama-based vision models ensures a nuanced and comprehensive understanding of documents and queries, enabling richer multimodal interactions.
 
----
 
 ## Setup Instructions
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - Required dependencies listed in `requirements.txt`
 - **Poppler**: Required for PDF to image conversion. Install via their website: [https://poppler.freedesktop.org/](https://poppler.freedesktop.org/)
 
@@ -144,7 +143,6 @@ Query and Response:
 
 - Generate responses using conversational memory and Llama-based vision models.
 
-\---
 
 ## Technologies Used
 
